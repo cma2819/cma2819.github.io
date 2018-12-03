@@ -1,0 +1,33 @@
+
+/*
+    body
+*/
+body {
+    color: #dddddd;
+    background-color: #111111;
+    padding: 0px;
+    margin: 0px;
+}
+/*
+    Header
+*/
+div#header {
+    height: 50px;
+    width: 100%;
+    border-bottom:1px solid #dddddd;
+}
+
+div#header h1 {
+    height:50px;
+    margin:0px 1em;
+    display: inline-block;
+}
+
+/*
+    Body
+*/
+div#content {
+    min-width: 640px;
+    width: 90%;
+    margin: 10px auto;
+}
