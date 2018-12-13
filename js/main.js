@@ -27,7 +27,7 @@ $.fn.extend({
 
   /* メニューのリンク関数 */
 async function linkTo(link) {
-    await $('div#content').animateCss('fadeInDown');
+    await $('div#content').animateCss('fadeIn');
     //await $('div#content').animateCss('fadeOut');
     location.href = '#' + link;
 };

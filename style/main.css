@@ -1,13 +1,21 @@
 
 /*
-    body
+    Common
 */
 body {
-    color: #dddddd;
+    color: #ffffff;
     background-color: #111111;
     padding: 0px;
     margin: 0px;
 }
+
+a, a:visited {
+    color: #dddddd;
+    transition: color 0.5s;
+  }
+  a:hover {
+    color: #ffffff;
+  }
 /*
     Header
 */
@@ -26,8 +34,32 @@ div#header h1 {
 /*
     Body
 */
+
+div#main {
+    margin: 20px auto;
+}
+div#main div {
+    height: 100%;
+    padding: 20px;
+}
+
 div#content {
-    min-width: 640px;
-    width: 90%;
+    max-width: 720px;
+    height: 100%;
+    /*width: 90%;*/
     margin: 10px auto;
+}
+
+/*
+    Footer
+*/
+div#accounts {
+    border-top: 1px #dddddd solid;
+}
+div#accounts table {
+    position:absolute;
+    right: 0px;
+}
+td.icon_margin {
+    padding:8px;
 }
