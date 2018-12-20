@@ -89,7 +89,7 @@
   <h2>Events - イベント出場歴</h2>
   <dl>
     <dt>RTA in Japan(2016/12/28～2016/12/30)</dt>
-    <dd><a href="https://youtu.be/hxrW5xRA1W0" target="_blank">時のオカリナ MST</dd>
+    <dd><a href="https://youtu.be/hxrW5xRA1W0" target="_blank">時のオカリナ MST</a></dd>
     <dt>RTA in Japan2(2017/12/27～2017/12/31)</dt>
     <dd><a href="https://youtu.be/JNgSDc0bQN0" target="_blank">時のオカリナ RDO</a></dd>
     <dd><a href="https://youtu.be/ashK0s4cUME" target="_blank">時のオカリナ No IM/WWの解説</a></dd>
