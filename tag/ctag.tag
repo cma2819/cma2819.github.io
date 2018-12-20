@@ -19,11 +19,9 @@
   <style>
     :scope {
       display: inline-block;
-    }
-    menu {
       margin:0px;
     }
-
+    
     li {
       display: inline-block;
       font-weight: bold;
