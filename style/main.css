@@ -23,7 +23,7 @@ a, a:visited {
     Header
 */
 div#header {
-    height: 50px;
+/*    height: 50px;*/
     width: 100%;
     border-bottom:1px solid #dddddd;
 }
@@ -57,6 +57,9 @@ dl {
     margin-left: 1em;
 }
 
+iframe#slideframe {
+    width: 100%;
+}
 /*
     Footer
 */

@@ -84,7 +84,7 @@
   <h1>Speedrun - RTA</h1>
   <p>ゼルダの伝説　時のオカリナをメインにRTAをしています。</p>
   <h2>Planning - 今後の予定</h2>
-  <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTh2N6oi1MQYdhZBV5mgxkqgtaQbRE51Oos0IWb_ch0searwbBxbN83raPL6-_a4YHE7fikck8M0DdD/embed?start=false&loop=false&delayms=3000"
+  <iframe id="slideframe" src="https://docs.google.com/presentation/d/e/2PACX-1vTh2N6oi1MQYdhZBV5mgxkqgtaQbRE51Oos0IWb_ch0searwbBxbN83raPL6-_a4YHE7fikck8M0DdD/embed?start=false&loop=false&delayms=3000"
     frameborder="0" width="720" height="434" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
   <h2>Events - イベント出場歴</h2>
   <dl>
