@@ -19,9 +19,9 @@
   <style>
     :scope {
       display: inline-block;
-      margin:0px;
+      margin: 0px;
     }
-    
+
     li {
       display: inline-block;
       font-weight: bold;
@@ -82,33 +82,41 @@
 
 <speedrun>
   <h1>Speedrun - RTA</h1>
+  <p>ゼルダの伝説　時のオカリナをメインにRTAをしています。</p>
+  <h2>Planning - 今後の予定</h2>
+  <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTh2N6oi1MQYdhZBV5mgxkqgtaQbRE51Oos0IWb_ch0searwbBxbN83raPL6-_a4YHE7fikck8M0DdD/embed?start=false&loop=false&delayms=3000"
+    frameborder="0" width="720" height="434" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+  <h2>Events - イベント出場歴</h2>
   <dl>
-    <p>ゼルダの伝説　時のオカリナをメインにRTAをしています。</p>
-    <dt>Planning - 今後の予定</dt>
-    <dd><iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTh2N6oi1MQYdhZBV5mgxkqgtaQbRE51Oos0IWb_ch0searwbBxbN83raPL6-_a4YHE7fikck8M0DdD/embed?start=false&loop=false&delayms=3000"
-        frameborder="0" width="720" height="434" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></dd>
-    <dt>Events - イベント出場歴</dt>
-    <dd><a href="https://youtu.be/hxrW5xRA1W0" target="_blank">時のオカリナ MST</a> at「RTA in Japan」(2016/12/28～2016/12/30)</dd>
-    <dd><a href="https://youtu.be/JNgSDc0bQN0" target="_blank">時のオカリナ RDO</a> at「RTA in Japan2」(2017/12/27～2017/12/31)</dd>
-    <dd><a href="https://youtu.be/ashK0s4cUME" target="_blank">時のオカリナ No IM/WWの解説</a> at「RTA in
-      Japan2」(2017/12/27～2017/12/31)</dd>
-    <dd><a href="https://www.twitch.tv/videos/325118647" target="_blank">【とよまな企画】とよまなのRTA解体ショー#1（ゲスト）</a>(2018/10/21)</dd>
-    <dd>時のオカリナ ノーマルビンゴ</a> at「C4RUN RTAリレー」(2018/12/08)</dd>
+    <dt>RTA in Japan(2016/12/28～2016/12/30)</dt>
+    <dd><a href="https://youtu.be/hxrW5xRA1W0" target="_blank">時のオカリナ MST</dd>
+    <dt>RTA in Japan2(2017/12/27～2017/12/31)</dt>
+    <dd><a href="https://youtu.be/JNgSDc0bQN0" target="_blank">時のオカリナ RDO</a></dd>
+    <dd><a href="https://youtu.be/ashK0s4cUME" target="_blank">時のオカリナ No IM/WWの解説</a></dd>
+    <dl><a href="https://www.twitch.tv/videos/325118647" target="_blank"></a>【とよまな企画】とよまなのRTA解体ショー#1（ゲスト）</a>(2018/10/21)</dl>
+    <dl>C4RUN RTAリレー(2018/12/08)</dl>
+    <dd>時のオカリナ ノーマルビンゴ</dd>
   </dl>
 </speedrun>
 
 <engineer>
   <h1>Engineering - 開発</h1>
+  <h2><a href="https://rtachecker.herokuapp.com/" target="_blank">RTAChecker</a></h2>
   <dl>
-    <dt><a href="https://rtachecker.herokuapp.com/" target="_blank">RTAChecker</a></dt>
-    <dd>サーバーサイド：Python3(Flask)</dd>
-    <dd>フロントサイド：JavaScript, jQuery</dd>
-    <dt>配信レイアウト作成</dt>
-    <dd>NodeCG（Node.jsを利用したフレームワーク）</dd>
-    <dd><a href="https://www.twitch.tv/videos/346087528" target="_blank">C4RUN RTAリレー</a> <a href="https://github.com/cma2819/c4run2018-layout"
-        target="_blank">ソースファイル</a></dd>
-    <dd>作成のご依頼等はTwitterのDMまで</dd>
-    <dt>おしごと</dt>
-    <dd>募集中です</dd>
+    <dt>サーバーサイド</dt>
+    <dd>Python3(Flask)</dd>
+    <dt>フロントサイド</dt>
+    <dd>JavaScript, jQuery</dd>
   </dl>
+  <h2>配信レイアウト作成</h2>
+  <dl>
+    <dt>NodeCG</dt>
+    <dd>Node.jsを利用したフレームワーク</dd>
+    <dt>開発実績</dt>
+    <dd>イベント<a href="https://www.twitch.tv/videos/346087528" target="_blank">「C4RUN RTAリレー」</a></dd>
+    <dd><a href="https://github.com/cma2819/c4run2018-layout" target="_blank">ソースファイル</a></dd>
+  </dl>
+  <p>作成のご依頼等はTwitterのDMまで</p>
+  <h2>おしごと</h2>
+  <p>募集中です</p>
 </engineer>
