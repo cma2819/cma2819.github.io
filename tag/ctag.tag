@@ -93,8 +93,8 @@
     <dt>RTA in Japan2(2017/12/27～2017/12/31)</dt>
     <dd><a href="https://youtu.be/JNgSDc0bQN0" target="_blank">時のオカリナ RDO</a></dd>
     <dd><a href="https://youtu.be/ashK0s4cUME" target="_blank">時のオカリナ No IM/WWの解説</a></dd>
-    <dl><a href="https://www.twitch.tv/videos/325118647" target="_blank"></a>【とよまな企画】とよまなのRTA解体ショー#1（ゲスト）</a>(2018/10/21)</dl>
-    <dl>C4RUN RTAリレー(2018/12/08)</dl>
+    <dt><a href="https://www.twitch.tv/videos/325118647" target="_blank">【とよまな企画】とよまなのRTA解体ショー#1（ゲスト）</a>(2018/10/21)</dt>
+    <dt>C4RUN RTAリレー(2018/12/08)</dt>
     <dd>時のオカリナ ノーマルビンゴ</dd>
   </dl>
 </speedrun>
