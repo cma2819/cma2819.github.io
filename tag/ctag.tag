@@ -70,8 +70,10 @@
   <dl>
     <dt>Speedrun</dt>
     <dd>ゼルダの伝説時のオカリナ（2012年～）</dd>
-    <dt>Enginnering</dt>
-    <dd>Python3, Java, Node.js(NodeCG), HTML, CSS3, JavaScript</dd>
+    <dt>Enginnering - Server</dt>
+    <dd>PHP, Python3, Java, Node.js(NodeCG)</dd>
+    <dt>Enginnering - Front</dt>
+    <dd>HTML, CSS3, JavaScript, TypeScript</dd>
     <dt>Links</dt>
     <dd><a href="https://rtachecker.herokuapp.com/" target="_blank">RTAChecker</a></dd>
     <dd><a href="https://www.speedrun.com/user/Cma" target="_blank">Speedrun.com</a></dd>
@@ -88,14 +90,16 @@
     frameborder="0" width="720" height="434" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
   <h2>Events - イベント出場歴</h2>
   <dl>
-    <dt>RTA in Japan(2016/12/28～2016/12/30)</dt>
+    <dt>RTA in Japan<span>(2016/12/28～2016/12/30)</span></dt>
     <dd><a href="https://youtu.be/hxrW5xRA1W0" target="_blank">時のオカリナ MST</a></dd>
-    <dt>RTA in Japan2(2017/12/27～2017/12/31)</dt>
+    <dt>RTA in Japan2<span>(2017/12/27～2017/12/31)</span></dt>
     <dd><a href="https://youtu.be/JNgSDc0bQN0" target="_blank">時のオカリナ RDO</a></dd>
     <dd><a href="https://youtu.be/ashK0s4cUME" target="_blank">時のオカリナ No IM/WWの解説</a></dd>
     <dt><a href="https://www.twitch.tv/videos/325118647" target="_blank">【とよまな企画】とよまなのRTA解体ショー#1（ゲスト）</a>(2018/10/21)</dt>
     <dt>C4RUN RTAリレー(2018/12/08)</dt>
     <dd>時のオカリナ ノーマルビンゴ</dd>
+    <dt>KUSO Marathon<span>(2019/07/13～2019/07/14)</span></dt>
+    <dd><a href="https://www.twitch.tv/videos/452639420?collection=9QL5qk2asRURKw" target="_blank">時のオカリナ GSR</a></dd>
   </dl>
 </speedrun>
 
@@ -118,5 +122,6 @@
   </dl>
   <p>作成のご依頼等はTwitterのDMまで</p>
   <h2>おしごと</h2>
-  <p>募集中です</p>
+  <p>サーバサイドエンジニア（PHP）</p>
+  <p>最近転職しました</p>
 </engineer>
