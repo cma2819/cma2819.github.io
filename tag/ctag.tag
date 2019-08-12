@@ -13,6 +13,7 @@
 <menu>
   <ul class="animated fadeIn">
     <li each={list}><a href="javascript:void(0)" onclick="linkTo('{link}')">{title}</a></li>
+    <li><a href="http://cma2819.hateblo.jp/" target="_blank">Blog</a></li>
   </ul>
 
 
