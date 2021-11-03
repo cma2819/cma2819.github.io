@@ -14,8 +14,8 @@ export const Layout = ({ title, children }: Props) => {
   return (
     <ThemeProvider theme={theme}>
       <Head>
-        <title>{ title && `${title} - `}Cmario.net</title>
-        <meta name="description" content="Cmario.net" />
+        <title>{ title && `${title} - `}cmario.net</title>
+        <meta name="description" content="cmario.net" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
