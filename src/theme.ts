@@ -1,6 +1,6 @@
-import { createTheme } from '@mui/material/styles';
+import { createTheme, responsiveFontSizes } from '@mui/material/styles';
 
-export const theme = createTheme({
+export const theme = responsiveFontSizes(createTheme({
   palette: {
     twitter: {
       main: '#1da1f2'
@@ -12,7 +12,7 @@ export const theme = createTheme({
       main: '#333'
     },
   },
-});
+}));
 
 declare module '@mui/material/styles' {
   interface Palette {
