@@ -25,6 +25,14 @@ export const getStaticPaths: GetStaticPaths = () => {
   };
 }
 
+const toFirstUpperCase = (word: string): string => {
+  if (!(word.length > 0)) {
+    return word;
+  }
+
+  return `${word.charAt(0).toUpperCase()}${word.slice(1)}`;
+}
+
 export const getStaticProps: GetStaticProps<MarkdownProps> = async (context) => {
   const slug = context?.params?.slug;
 
@@ -36,7 +44,7 @@ export const getStaticProps: GetStaticProps<MarkdownProps> = async (context) => 
   try {
     return {
       props: {
-        slug: (Array.isArray(slug) ? slug[0] : slug).toUpperCase(),
+        slug: toFirstUpperCase(Array.isArray(slug) ? slug[0] : slug),
         content: await serialize(readMarkdownFromSlug(Array.isArray(slug) ? slug[0] : slug)),
       },
     };
