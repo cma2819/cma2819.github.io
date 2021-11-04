@@ -37,7 +37,7 @@
 |名称|経験など|
 |:--|:--|
 |AWS|コンソール上で EC2 や RDS, ElastiCache を作成し, VPC を構成してアプリケーションをホストできる程度.|
-|Azure|DevOps Pipeline を利用して, App Service への継続的デプロイを構築できる程度.|
+|Azure|DevOps Pipeline を利用して, App Service への自動デプロイを構築できる程度.|
 |GCP|GAE 上に PHP アプリケーションをデプロイした経験がある程度.|
 
 ### 開発ツール
