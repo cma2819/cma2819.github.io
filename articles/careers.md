@@ -21,7 +21,7 @@
 |:--|:--|:--|
 |PHP|業務2年, 個人開発2年|Laravel|
 |Node.js|個人開発5年|NodeCG|
-|TypeScript|個人開発3年|Vue, React|
+|TypeScript|個人開発3年|Vue.js, React|
 |Java|在学中3年, 業務2年|Swing, Spring|
 |Python3|在学中1年, 個人開発1年|Flask, django|
 
@@ -114,7 +114,7 @@ Qiita や Zenn, 技術ブログ等の記事は参考にはしますが, 公式�
 
 現職入社後から PHP を学習し始め, 2年ほど PHP を使用しています. 
 
-Laravel を中心に PHP に触れる中でソフトウェア設計について興味を持ち, ドメイン駆動設計・Clean Architectureについて学びました. 業務では, Clean Architecture を参考に, レイヤー間の依存を考慮したソフトウェア設計を提案・実践しています. 
+Laravel を中心に PHP に触れる中でソフトウェア設計について興味を持ち, ドメイン駆動設計・Clean Architecture について学びました. 業務では, Clean Architecture を参考に, レイヤー間の依存を考慮したソフトウェア設計を提案・実践しています. 
 
 業務コーディングにおいてテスト駆動開発を実践し, 社内のテストの導入を促進しています. テストなしで実装されていた コントローラが肥大化していた Laravel のアプリケーションを, テストを活用してリファクタリングした経験があります. 
 

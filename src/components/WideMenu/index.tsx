@@ -9,6 +9,7 @@ const menuPaths: {
 }[] = [
   { name: 'Top', pathname: '/' },
   { name: 'Careers', pathname: '/careers' },
+  { name: 'Skills', pathname: '/skills' },
 ];
 
 const Item = styled(Box)(() => ({

@@ -20,6 +20,7 @@ export const getStaticPaths: GetStaticPaths = () => {
   return {
     paths: [
       slugPath('careers'),
+      slugPath('skills'),
     ],
     fallback: false,
   };
