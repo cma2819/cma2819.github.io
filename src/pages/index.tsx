@@ -1,18 +1,18 @@
-import { Grid, Typography } from '@mui/material'
+import { Grid } from '@mui/material'
 import { NextPage } from 'next'
 import { Layout } from '../components/Layout'
 import { TwitterButton } from '../components/Socials/TwitterButton'
 import { GithubButton } from '../components/Socials/GithubButton'
 import { TwitchButton } from '../components/Socials/TwitchButton'
+import { MainHeader } from '../components/MainHeader'
 
 const Home: NextPage = () => {
   return (
     <Layout>
-      <Typography variant="h1" sx={{
-        textAlign: "center"
-      }}>
+      <MainHeader variant="h1">
         cmario.net
-      </Typography>
+      </MainHeader>
+
       <Grid container justifyContent="center">
         <Grid item>
           <TwitterButton username="cma2819" />
