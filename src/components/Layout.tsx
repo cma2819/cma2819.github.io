@@ -1,9 +1,10 @@
 import React, { ReactNode } from 'react';
-import { Container, ThemeProvider } from '@mui/material'
+import { Container, Divider, ThemeProvider } from '@mui/material'
 import Head from 'next/head'
 import { WideMenu } from '../components/WideMenu'
 import { theme } from '../theme';
 import '@fortawesome/fontawesome-free/css/all.css';
+import { FooterCopyright } from './FooterCopyright';
 
 type Props = {
   title?: string;
@@ -29,6 +30,7 @@ export const Layout = ({ title, children }: Props) => {
         </main>
 
         <footer>
+          <FooterCopyright />
         </footer>
       </Container>
     </ThemeProvider>
