@@ -1,12 +1,12 @@
-import { Grid } from '@mui/material'
-import { NextPage } from 'next'
-import { Layout } from '../components/Layout'
-import { TwitterButton } from '../components/Socials/TwitterButton'
-import { GithubButton } from '../components/Socials/GithubButton'
-import { TwitchButton } from '../components/Socials/TwitchButton'
-import { MainHeader } from '../components/MainHeader'
-import { Profile } from '../components/Profile'
-import { Box } from '@mui/system'
+import { Grid } from '@mui/material';
+import { NextPage } from 'next';
+import { Layout } from '../components/Layout';
+import { TwitterButton } from '../components/Socials/TwitterButton';
+import { GithubButton } from '../components/Socials/GithubButton';
+import { TwitchButton } from '../components/Socials/TwitchButton';
+import { MainHeader } from '../components/MainHeader';
+import { Profile } from '../components/Profile';
+import { Box } from '@mui/system';
 
 const Home: NextPage = () => {
   return (
@@ -33,7 +33,7 @@ const Home: NextPage = () => {
         <Profile />
       </Box>
     </Layout>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

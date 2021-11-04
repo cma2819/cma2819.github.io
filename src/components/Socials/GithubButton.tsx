@@ -17,5 +17,5 @@ export const GithubButton = ({ username }: Props) => {
     >
       GitHub
     </Button>
-  )
-}
+  );
+};

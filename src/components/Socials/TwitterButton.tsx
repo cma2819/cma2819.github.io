@@ -16,5 +16,5 @@ export const TwitterButton = ({ username }: Props) => {
     >
       Twitter
     </Button>
-  )
-}
+  );
+};

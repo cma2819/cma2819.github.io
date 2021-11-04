@@ -1,4 +1,4 @@
-import { MDXRemote, MDXRemoteSerializeResult } from 'next-mdx-remote'
+import { MDXRemote, MDXRemoteSerializeResult } from 'next-mdx-remote';
 import components from './components';
 
 type Props = {
@@ -8,5 +8,5 @@ type Props = {
 export const Article = ({ content }: Props) => {
   return (
     <MDXRemote {...content} components={components} />
-  )
-}
+  );
+};

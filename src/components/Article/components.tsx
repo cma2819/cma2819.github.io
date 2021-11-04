@@ -19,6 +19,6 @@ const components = {
   ),
   td: TableCell,
   a: Link,
-}
+};
 
 export default components;

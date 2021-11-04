@@ -1,9 +1,9 @@
-import type { GetStaticPaths, GetStaticProps, GetStaticPropsResult, NextPage } from 'next'
-import { readMarkdownFromSlug } from '../lib'
-import { serialize } from 'next-mdx-remote/serialize'
-import { MDXRemoteSerializeResult } from 'next-mdx-remote'
-import { Article } from '../components/Article'
-import { Layout } from '../components/Layout'
+import type { GetStaticPaths, GetStaticProps, GetStaticPropsResult, NextPage } from 'next';
+import { readMarkdownFromSlug } from '../lib';
+import { serialize } from 'next-mdx-remote/serialize';
+import { MDXRemoteSerializeResult } from 'next-mdx-remote';
+import { Article } from '../components/Article';
+import { Layout } from '../components/Layout';
 
 type MarkdownProps = {
   slug: string;
@@ -14,7 +14,7 @@ const notFoundResult: GetStaticPropsResult<{}> = {notFound: true};
 
 const slugPath = (slug: string):{ params: {slug: string} } => {
   return { params: { slug }};
-}
+};
 
 export const getStaticPaths: GetStaticPaths = () => {
   return {
@@ -23,7 +23,7 @@ export const getStaticPaths: GetStaticPaths = () => {
     ],
     fallback: false,
   };
-}
+};
 
 const toFirstUpperCase = (word: string): string => {
   if (!(word.length > 0)) {
@@ -31,7 +31,7 @@ const toFirstUpperCase = (word: string): string => {
   }
 
   return `${word.charAt(0).toUpperCase()}${word.slice(1)}`;
-}
+};
 
 export const getStaticProps: GetStaticProps<MarkdownProps> = async (context) => {
   const slug = context?.params?.slug;
@@ -52,14 +52,14 @@ export const getStaticProps: GetStaticProps<MarkdownProps> = async (context) => 
     console.error(e);
     return notFoundResult;
   }
-}
+};
 
 const MarkdownPost: NextPage<MarkdownProps> = ({ slug, content }) => {
   return (
     <Layout title={slug}>
       <Article content={content} />
     </Layout>
-  )
-}
+  );
+};
 
-export default MarkdownPost
+export default MarkdownPost;

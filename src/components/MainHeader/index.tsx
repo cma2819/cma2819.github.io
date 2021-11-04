@@ -1,5 +1,5 @@
 import { Typography, TypographyVariant } from '@mui/material';
-import React, { ReactNode } from 'react'
+import React, { ReactNode } from 'react';
 
 type Props = {
   variant: TypographyVariant;
@@ -14,4 +14,4 @@ export const MainHeader = ({ variant, children }: Props) => {
       { children }
     </Typography>
   );
-}
+};

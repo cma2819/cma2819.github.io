@@ -27,4 +27,4 @@ export const FooterCopyright = () => {
       </Grid>
     </Box>
   );
-}
+};

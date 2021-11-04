@@ -16,5 +16,5 @@ export const TwitchButton = ({ username }: Props) => {
     >
       Twitch
     </Button>
-  )
-}
+  );
+};
