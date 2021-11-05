@@ -14,6 +14,7 @@ export const theme = responsiveFontSizes(createTheme({
   },
 }));
 
+export type Theme = typeof theme;
 declare module '@mui/material/styles' {
   interface Palette {
     twitter: Palette['primary'];
