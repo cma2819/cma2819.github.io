@@ -2,6 +2,7 @@ import { Grid, Typography } from '@mui/material';
 import { Box, styled } from '@mui/system';
 import React from 'react';
 import { GithubRepoBanner, Props as GithubRepoProps } from '../GithubRepoBanner';
+import Link from '../Link';
 
 const ProfileBox = styled(Box)(({ theme }) => ({
   padding: theme.spacing(1),
@@ -53,7 +54,9 @@ export const Profile = () => {
       <ProfileBox>
         <ProfileTypography variant="h6">Speedrunner</ProfileTypography>
         <ProfileTypography variant="body1">
-          Zelda: Ocarina of Time player / RTA in Japan staff / Online Marathon Eventers leader
+          Zelda: Ocarina of Time player / 
+          <Link href="https://rtain.jp" target="_blank">RTA in Japan</Link> staff /
+          <Link href="https://portal.rtamarathon.online" target="_blank">Online Marathon Eventers</Link> leader
         </ProfileTypography>
       </ProfileBox>
     </>
