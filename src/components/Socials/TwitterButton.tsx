@@ -3,9 +3,10 @@ import React from 'react';
 
 type Props = {
   username: string;
+  showUsername?: boolean;
 };
 
-export const TwitterButton = ({ username }: Props) => {
+export const TwitterButton = ({ username, showUsername }: Props) => {
   return (
     <Button
       color="twitter"
@@ -13,8 +14,11 @@ export const TwitterButton = ({ username }: Props) => {
       startIcon={<Icon baseClassName="fab" className="fa-twitter" />}
       href={`https://twitter.com/${username}`}
       target="_blank"
+      sx={{
+        textTransform: 'none',
+      }}
     >
-      Twitter
+      { showUsername ? username : 'Twitter' }
     </Button>
   );
 };

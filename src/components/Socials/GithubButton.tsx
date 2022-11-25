@@ -4,9 +4,10 @@ import React from 'react';
 
 type Props = {
   username: string;
+  showUsername?: boolean;
 };
 
-export const GithubButton = ({ username }: Props) => {
+export const GithubButton = ({ username, showUsername }: Props) => {
   return (
     <Button
       color="github"
@@ -14,8 +15,11 @@ export const GithubButton = ({ username }: Props) => {
       startIcon={<Icon baseClassName="fab" className="fa-github" />}
       href={`https://github.com/${username}`}
       target="_blank"
+      sx={{
+        textTransform: 'none',
+      }}
     >
-      GitHub
+      { showUsername ? username : 'GitHub' }
     </Button>
   );
 };

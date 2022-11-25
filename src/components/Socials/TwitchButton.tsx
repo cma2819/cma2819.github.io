@@ -3,9 +3,10 @@ import React from 'react';
 
 type Props = {
   username: string;
+  showUsername?: boolean;
 };
 
-export const TwitchButton = ({ username }: Props) => {
+export const TwitchButton = ({ username, showUsername }: Props) => {
   return (
     <Button
       color="twitch"
@@ -13,8 +14,11 @@ export const TwitchButton = ({ username }: Props) => {
       startIcon={<Icon baseClassName="fab" className="fa-twitch" />}
       href={`https://twitch.com/${username}`}
       target="_blank"
+      sx={{
+        textTransform: 'none',
+      }}
     >
-      Twitch
+      { showUsername ? username : 'Twitch' }
     </Button>
   );
 };
