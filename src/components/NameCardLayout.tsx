@@ -9,7 +9,7 @@ type Props = {
   children?: ReactNode;
 };
 
-export const CardLayout = ({ title, children }: Props) => {
+export const NameCardLayout = ({ title, children }: Props) => {
   return (
     <ThemeProvider theme={theme}>
       <Head>

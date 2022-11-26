@@ -12,6 +12,7 @@
     "@emotion/react": "^11.5.0",
     "@emotion/styled": "^11.3.0",
     "@fortawesome/fontawesome-free": "^5.15.4",
+    "@mui/icons-material": "^5.10.15",
     "@mui/material": "^5.0.6",
     "@octokit/core": "^3.5.1",
     "next": "11.1.2",
