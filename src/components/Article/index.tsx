@@ -1,4 +1,6 @@
+import { Table, TableBody, TableCell, TableContainer, TableHead, TableRow } from '@mui/material';
 import { MDXRemote, MDXRemoteSerializeResult } from 'next-mdx-remote';
+import Link from '../Link';
 import components from './components';
 
 type Props = {

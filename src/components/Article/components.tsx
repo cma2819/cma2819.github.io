@@ -1,24 +1,59 @@
 import { Table, TableBody, TableCell, TableCellProps, TableContainer, TableHead, TableHeadProps, TableProps, TableRow } from '@mui/material';
+import React from 'react';
 import Link from '../Link';
 
-const components = {
-  table: (props: TableProps) => (
+const CustomTable = () => {
+  return (
     <TableContainer>
-      <Table {...props} sx={{
+      <Table sx={{
         width: 'auto',
       }} />
     </TableContainer>
-  ),
-  thead: TableHead,
-  tbody: TableBody,
-  tr: TableRow,
-  th: (props: TableCellProps) => (
-    <TableCell {...props} sx={{
+  );
+};
+
+const CustomTableHead = () => {
+  return (
+    <TableHead />
+  );
+};
+
+const CustomTableBody = () => {
+  return (
+    <TableBody />
+  );
+};
+
+const CustomTableRow = () => {
+  return (
+    <TableRow />
+  );
+};
+
+const CustomTableData = () => {
+  return (
+    <TableCell />
+  );
+};
+
+const components = {
+  table: CustomTable,
+  thead: CustomTableHead,
+  tbody: CustomTableBody,
+  tr: CustomTableRow,
+  th: () => (
+    <TableCell sx={{
       textAlign: 'center',
     }} />
   ),
-  td: TableCell,
-  a: Link,
+  td: CustomTableData,
+  a: (props: React.ComponentProps<'a'>) => {
+    if (!props.href) {
+      return <a {...props} />;
+    }
+
+    return <Link href={props.href} />;
+  },
 };
 
 export default components;

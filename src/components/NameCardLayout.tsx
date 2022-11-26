@@ -1,5 +1,5 @@
 import React, { ReactNode } from 'react';
-import { Container, Divider, ThemeProvider } from '@mui/material';
+import { Container, Divider, GlobalStyles, ThemeProvider } from '@mui/material';
 import Head from 'next/head';
 import { theme } from '../theme';
 import '@fortawesome/fontawesome-free/css/all.css';
@@ -23,11 +23,11 @@ export const NameCardLayout = ({ title, children }: Props) => {
           { children }
         </main>
 
-        <style global jsx>{`
-          body {
-            margin: 0
+        <GlobalStyles styles={{
+          body: {
+            margin: 0,
           }
-        `}</style>
+        }} />
       </Container>
     </ThemeProvider>
   );
