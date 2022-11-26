@@ -12,7 +12,7 @@ export const AddressBar = () => {
         container
         alignItems='center'
         sx={{
-          width: '20vw',
+          width: '40vw',
           paddingX: 1,
           paddingTop: 0.5,
         }}
